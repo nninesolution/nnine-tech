@@ -18,6 +18,7 @@ const Home = () => {
             <Services />
             <Portfolio />
             <Clients />
+            <Blog />
             <Cta/>
             <Footer />
         </>
