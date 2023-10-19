@@ -30,7 +30,7 @@ function App() {
     });
   }, []);
 
-  useDocTitle("NNINE | NNINE SOLUTION - Bespoke Web and Mobile Applications");
+  useDocTitle("N9");
 
   return (
     <>
