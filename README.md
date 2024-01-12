@@ -9,3 +9,4 @@
     2. AWS Solution Architect Course
     3. Database Course
     4. RHEL
+    4. Debian
