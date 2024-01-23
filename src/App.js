@@ -30,7 +30,7 @@ function App() {
     });
   }, []);
 
-  useDocTitle("N9");
+  useDocTitle("NINE: WEB 3.0 Partner");
 
   return (
     <>
