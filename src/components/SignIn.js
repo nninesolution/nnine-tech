@@ -60,7 +60,7 @@ const SignIn = () => {
       {/* Google Sign-in button */}
       <div className="mt-4">
         <GoogleLogin
-          clientId="YOUR_GOOGLE_CLIENT_ID"
+          clientId="357077052286-g46e1nqi5ngs5hv8he1q8dgsjp0o0it4.apps.googleusercontent.com"
           buttonText="Sign In with Google"
           onSuccess={responseGoogle}
           onFailure={responseGoogle}
