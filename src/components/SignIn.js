@@ -1,61 +1,76 @@
-// SignIn.js
 import React, { useState } from 'react';
+import { Link, useNavigate } from 'react-router-dom';
+import { GoogleLogin } from 'react-google-login';
 
 const SignIn = () => {
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
+  const navigate = useNavigate();
   const [error, setError] = useState(null);
 
-  const handleSignIn = (e) => {
+  const handleSignIn = async (e) => {
     e.preventDefault();
+    // Your sign-in logic here
+    // ...
 
-    // Add your authentication logic here
-    // For simplicity, let's assume a basic authentication check
-    if (email === 'user@example.com' && password === 'password') {
-      // Successful sign-in, you can redirect or perform other actions
-      console.log('Sign-in successful');
-      setError(null);
-    } else {
-      setError('Invalid email or password');
-    }
+    // If sign-in is successful, you can redirect the user
+    navigate('/dashboard');
+  };
+
+  const responseGoogle = (response) => {
+    // Handle the Google response, and send the necessary data to your backend for sign-in
+    console.log(response);
+    // You can extract information like response.profileObj.email, response.profileObj.name, etc.
+    // Then use this information to sign in or create a new account on your backend
   };
 
   return (
-    <div className="max-w-md mx-auto mt-8 p-6 bg-white rounded-lg shadow-md">
-      <h2 className="text-2xl font-bold mb-4">Sign In</h2>
+    <div className="max-w-md mx-auto mt-10 p-6 bg-white rounded-lg shadow-md">
       <form onSubmit={handleSignIn}>
+        {/* Your email and password input fields */}
         <div className="mb-4">
-          <label htmlFor="email" className="block text-gray-700 text-sm font-bold mb-2">Email:</label>
+          <label htmlFor="email" className="block text-gray-700 text-sm font-bold mb-2">
+            Email
+          </label>
           <input
             type="email"
             id="email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            required
-            className="w-full px-3 py-2 border rounded-md shadow-sm focus:outline-none focus:border-blue-500 focus:ring focus:ring-blue-200"
+            name="email"
+            className="border rounded-md p-2 w-full"
+            // Add necessary event handlers and state binding
           />
         </div>
+
         <div className="mb-4">
-          <label htmlFor="password" className="block text-gray-700 text-sm font-bold mb-2">Password:</label>
+          <label htmlFor="password" className="block text-gray-700 text-sm font-bold mb-2">
+            Password
+          </label>
           <input
             type="password"
             id="password"
-            value={password}
-            onChange={(e) => setPassword(e.target.value)}
-            required
-            className="w-full px-3 py-2 border rounded-md shadow-sm focus:outline-none focus:border-blue-500 focus:ring focus:ring-blue-200"
+            name="password"
+            className="border rounded-md p-2 w-full"
+            // Add necessary event handlers and state binding
           />
         </div>
-        <button
-          type="submit"
-          className="bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-700 focus:outline-none focus:ring focus:ring-blue-200"
-        >
+
+        <button type="submit" className="bg-blue-500 text-white p-2 rounded-md hover:bg-blue-600">
           Sign In
         </button>
-        {error && <p className="text-red-500 mt-2">{error}</p>}
       </form>
+
+      {/* Google Sign-in button */}
+      <div className="mt-4">
+        <GoogleLogin
+          clientId="YOUR_GOOGLE_CLIENT_ID"
+          buttonText="Sign In with Google"
+          onSuccess={responseGoogle}
+          onFailure={responseGoogle}
+          cookiePolicy={'single_host_origin'}
+        />
+      </div>
+
+      {error && <p className="text-red-500 mt-4">{error}</p>}
     </div>
   );
-}
+};
 
 export default SignIn;
