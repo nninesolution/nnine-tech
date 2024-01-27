@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import NavLinks from '../Navbar/NavLinks';
-
+  
 
 const NavBar = () => {
     const [top, setTop] = useState(true);
@@ -22,10 +22,12 @@ const NavBar = () => {
     return (
         <nav className={`fixed top-0 w-full z-30 transition duration-300 ease-in-out mb-16 ${!top && 'bg-white shadow-lg'}`}>
             <div className="flex flex-row justify-between items-center py-2">
-                <div className="flex flex-row justify-center md:px-12 md:mx-12 items-center text-center font-semibold">
-                   {/* <img src="N9.png" alt="N9.png" class="h-12 mr-2" />*/}
-                    <Link to="/"><h1 className="font-extrabold text-4xl text-blue-900">NNINE SOLUTION</h1></Link>
-                    
+                <div className="flex flex-row justify-left md:px-12 md:mx-12 items-center text-center font-semibold">          
+                <Link to = "/">
+                <img src="nnine.png" alt="nnine.png" class="h-12 mr-2"/>
+                </Link>
+               
+                   {/* <Link to="/"><h1 className="font-extrabold text-4xl text-blue-900">NNINE SOLUTION</h1></Link> */}
                 </div>
                 <div className="group flex flex-col items-center">
                     <button className="p-2 rounded-lg lg:hidden text-blue-900" onClick={handleClick}>
