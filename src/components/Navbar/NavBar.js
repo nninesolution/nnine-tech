@@ -21,7 +21,7 @@ const NavBar = () => {
 
     return (
         <nav className={`fixed top-0 w-full z-30 transition duration-300 ease-in-out mb-16 ${!top && 'bg-white shadow-lg'}`}>
-            <div className="flex flex-row justify-between items-center py-1">
+            <div className="flex flex-row justify-between items-center py-0.5">
                 <div className="flex flex-row justify-left md:px-12 md:mx-12 items-center text-center font-semibold">                       
                    <Link to="/"><h1 className="font-bold text-2xl text-blue-900">N9 SOLUTION</h1></Link>
                 </div>
