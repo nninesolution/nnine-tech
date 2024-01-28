@@ -28,17 +28,20 @@ const Hero = () => {
                     </div>
                     <div className="lg:w-1/2" data-aos="fade-up" data-aos-delay="700">
                         <div className="text-left">
-                            <h1 className="mb-5 md:text-5xl text-3xl font-bold text-blue-900">Courses:</h1>
+                            <h1 className="mb-5 md:text-3xl text-2xl font-bold text-blue-900">Courses:</h1>
                             <ul className="list-disc pl-4">
                                 {comingSoonCourses.map((course, index) => (
-                                    <li key={index} className="mb-2 text-lg">
+                                    <li key={index} className="mb-10 text-lg">
                                         <span className="text-blue-900">{course.name}</span> - {' '}
-                                        <a href={course.formLink} target="_blank" rel="noopener noreferrer" className="text-white bg-blue-900 hover:bg-blue-800 py-1 px-2 rounded-full">
-                                            Enroll Now
+                                        <a href={course.formLink} target="_blank" rel="noopener noreferrer" className="text-white bg-blue-900 hover:bg-blue-800 py-1 px-1 rounded-full">
+                                            Enroll Now            
                                         </a>
+                                       
                                     </li>
                                 ))}
+                                
                             </ul>
+                        
                         </div>
                     </div>
                 </div>

@@ -5,7 +5,7 @@ import { HashLink } from 'react-router-hash-link';
 const NavLinks = () => {
     return (
         <>
-        <Link className="text-white bg-red-900 hover:bg-blue-800 inline-flex items-center justify-center w-auto px-4 py-2 shadow-xl rounded-xl" smooth to="/contactus">
+        <Link className="text-black hover:bg-blue-800 inline-flex items-center justify-center w-auto px-4 py-2 rounded-xl" smooth to="/contactus">
         <div className="flex items-center">
             {/* Search box */}
             <div className="relative mr-4">
@@ -29,22 +29,22 @@ const NavLinks = () => {
             </div>
             </div>
             </Link>
-            <Link className="text-white bg-red-900 hover:bg-blue-800 inline-flex items-center justify-center w-auto px-4 py-2 shadow-xl rounded-xl" smooth to="/get-demo">
+            <Link className="text-black hover:bg-blue-800 inline-flex items-center justify-center w-auto px-4 py-2 rounded-xl" smooth to="/get-demo">
                 Demo our products
             </Link>
-            <HashLink className="text-white bg-red-900 hover:bg-blue-800 inline-flex items-center justify-center w-auto px-4 py-2 shadow-xl rounded-xl" smooth to="/about">
+            <HashLink className="text-black hover:bg-blue-800 inline-flex items-center justify-center w-auto px-4 py-2 rounded-xl" smooth to="/about">
                 About
             </HashLink>
-            <HashLink className="text-white bg-red-900 hover:bg-blue-800 inline-flex items-center justify-center w-auto px-4 py-2 shadow-xl rounded-xl" smooth to="/#services">
+            <HashLink className="text-black hover:bg-blue-800 inline-flex items-center justify-center w-auto px-4 py-2 rounded-xl" smooth to="/#services">
                 Services
             </HashLink>
          {/*   <HashLink className="text-white bg-red-900 hover:bg-Red-800 inline-flex items-center justify-center w-auto px-4 py-2 shadow-xl rounded-xl" smooth to="/#portfolio">
                 Portfolio
     </HashLink> */}
-             <HashLink className="text-white bg-red-900 hover:bg-blue-800 inline-flex items-center justify-center w-auto px-4 py-2 shadow-xl rounded-xl" smooth to="/contact">
+             <HashLink className="text-black hover:bg-blue-800 inline-flex items-center justify-center w-auto px-4 py-2 rounded-xl" smooth to="/contact">
                 Contact Us
     </HashLink> 
-            <HashLink className="text-white bg-red-900 hover:bg-blue-800 inline-flex items-center justify-center w-auto px-4 py-2 shadow-xl rounded-xl" smooth to="/signin">
+            <HashLink className="text-black hover:bg-blue-800 inline-flex items-center justify-center w-auto px-4 py-2 rounded-xl" smooth to="/signin">
                 SignIn/SignUp
             </HashLink>
         </>
