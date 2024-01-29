@@ -8,10 +8,9 @@ const Hero = () => {
         { name: "DevOps", formLink: "https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link" },
         { name: "AWS Solution Associate", formLink: "https://docs.google.com/forms/d/e/1FAIpQLScfpMOlQksn6qyIQtHo4Eknbni88NXpFnBl56bEVchhFB53tg/viewform?usp=sf_link" },
         { name: "AWS Developer Associate", formLink: "https://docs.google.com/forms/d/e/1FAIpQLScoazEGOKT9Za3PRlKq6casljxztZYNg8-tOcbrGeJCtXIi2Q/viewform?usp=sf_link" },
-        { name: "RHEL", formLink: "Lhttps://docs.google.com/forms/d/e/1FAIpQLSfpQ-jJxF2LfCa3nm2nEaY8xEg1wmphzqzZksBzzivJSvjojg/viewform?usp=sf_link" },
-        { name: "ORACLE", formLink: "Lhttps://docs.google.com/forms/d/e/1FAIpQLScoazEGOKT9Za3PRlKq6casljxztZYNg8-tOcbrGeJCtXIi2Q/viewform?usp=sf_link" }
+        { name: "RHEL", formLink: "https://docs.google.com/forms/d/e/1FAIpQLSfpQ-jJxF2LfCa3nm2nEaY8xEg1wmphzqzZksBzzivJSvjojg/viewform?usp=sf_link" },
+        { name: "ORACLE", formLink: "https://docs.google.com/forms/d/e/1FAIpQLSdIRfrK--iA_QdhnJRidi7ngxF4qnuXqdPe8evPvMXCunuJIQ/viewform?usp=sf_link" }
     ];
-
     return (
         <div className="hero" id='hero'>
             <div>
