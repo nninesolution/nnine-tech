@@ -11,7 +11,6 @@ const Hero = () => {
         { name: "RHEL", formLink: "https://docs.google.com/forms/d/e/1FAIpQLSfpQ-jJxF2LfCa3nm2nEaY8xEg1wmphzqzZksBzzivJSvjojg/viewform?usp=sf_link" },
         { name: "ORACLE", formLink: "https://docs.google.com/forms/d/e/1FAIpQLSdIRfrK--iA_QdhnJRidi7ngxF4qnuXqdPe8evPvMXCunuJIQ/viewform?usp=sf_link" }
     ];
-
     return (
         <div className="hero" id='hero'>
             <div>
