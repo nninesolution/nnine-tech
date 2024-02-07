@@ -13,7 +13,6 @@ import Contact from './pages/Contact';
 import DemoProduct from './pages/DemoProduct';
 import Services from './components/Services';
 import Portfolio from './components/Portfolio';
-import SignIn from './components/SignIn';
 import {useDocTitle} from './components/CustomHook';
 import ScrollToTop from './components/ScrollToTop';
 
@@ -44,7 +43,6 @@ function App() {
             <Route path="/get-demo" element={<DemoProduct />} />
             <Route path="/services" element={<Services />} />
             <Route path="/portfolio" element={<Portfolio />} />
-            <Route path="/signin" element={<SignIn />} />
           </Routes>
         </ScrollToTop>
       </Router>
