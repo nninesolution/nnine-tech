@@ -9,26 +9,21 @@ import CardList from '../components/Cardlist';
 //import Portfolio from '../components/Portfolio';
 //import Services from '../components/Services';
 //import Blog from '../components/Blog';
-
-
-
 const Home = () => {
     return (
         <>
             <Hero />
             <CardList/>
             <Footer />
-            {/*<Intro />
+            {/*
+e            <Intro />
             <Services />
             <Portfolio />
             <Clients />
             <Blog />
             <Cta/>*/}
-            
-        </>
-
+          </>
     )
 }
-
 export default Home;
 

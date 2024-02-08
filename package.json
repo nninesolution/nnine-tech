@@ -4,13 +4,15 @@
   "private": true,
   "homepage": "https://nnine.tech/",
   "dependencies": {
+    "@react-google-maps/api": "^2.19.2",
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
     "aos": "^3.0.0-beta.6",
-    "axios": "^0.24.0",
+    "axios": "^1.6.7",
     "body-parser": "^1.20.2",
     "emailjs-com": "^3.2.0",
+    "eslint-plugin-next": "^0.0.0",
     "express": "^4.18.2",
     "express-session": "^1.17.3",
     "mongoose": "^8.1.1",
@@ -20,24 +22,19 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-google-login": "^5.2.2",
-    "react-router-dom": "^6.2.1",
+    "react-router-dom": "^6.22.0",
     "react-router-hash-link": "^2.4.3",
-    "react-scripts": "5.0.0",
+    "react-scripts": "^5.0.1",
     "react-transition-group": "^4.4.2",
+    "use-places-autocomplete": "^4.0.1",
     "web-vitals": "^2.1.2"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "next build",
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts --openssl-legacy-provider build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "dev": "next dev"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
   },
   "browserslist": {
     "production": [
@@ -51,17 +48,13 @@
       "last 1 safari version"
     ]
   },
-
   "devDependencies": {
+    "@babel/plugin-proposal-object-rest-spread": "^7.20.7",
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "autoprefixer": "^10.4.0",
     "babel-plugin-macros": "^3.1.0",
-    "eslint": "^8.56.0",
-    "eslint-plugin-next": "0.0.0",
     "next": "^14.1.0",
     "postcss": "^8.4.33",
     "tailwindcss": "^3.0.7"
-    
   }
-  
 }

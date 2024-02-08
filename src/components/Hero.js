@@ -22,7 +22,13 @@ const Hero = () => {
                 <div className="flex flex-col lg:flex-row py-8 justify-between text-center lg:text-left">
                     <div className="lg:w-1/2 flex flex-col justify-center" data-aos="zoom-in" data-aos-delay="200">
                         <h1 className="mb-5 md:text-5xl text-3xl font-bold text-blue-900">
-                            Coming Soon
+                            IT Training 
+                            <br></br>
+                    
+                            and 
+                            <br></br>
+                           
+                            Consultancy Services
                          </h1>
                        {/* <img src={heroImg1} alt="Coming Soon Illustration" style={{ maxWidth: '50', height: '50' }} /> */}
                     </div>
