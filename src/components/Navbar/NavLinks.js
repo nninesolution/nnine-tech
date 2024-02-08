@@ -10,8 +10,11 @@ const NavLinks = () => {
             <HashLink className="text-black hover:bg-blue-800 inline-flex items-center justify-center w-auto px-4 py-2 rounded-xl" smooth to="/about">
                 About
             </HashLink>
-            <HashLink className="text-black hover:bg-blue-800 inline-flex items-center justify-center w-auto px-4 py-2 rounded-xl" smooth to="/#services">
-                Services
+            <HashLink className="text-black hover:bg-blue-800 inline-flex items-center justify-center w-auto px-4 py-2 rounded-xl" smooth to="/cardlist">
+                Popular Courses
+            </HashLink>
+            <HashLink className="text-black hover:bg-blue-800 inline-flex items-center justify-center w-auto px-4 py-2 rounded-xl" smooth to="/trainers">
+                Trainers
             </HashLink>
              <HashLink className="text-black hover:bg-blue-800 inline-flex items-center justify-center w-auto px-4 py-2 rounded-xl" smooth to="/contact">
                 Contact Us
