@@ -1,6 +1,7 @@
 import React from 'react';
 //import { Link } from 'react-router-dom';
 import NavBar from '../components/Navbar/NavBar';
+import CourseCard from './CourseCard';
 //import heroImg from '../images/comingsoon.jpg'; 
 //import heroImg1 from '../images/N91.png'; 
 
@@ -26,39 +27,25 @@ const Hero = () => {
                         <h1 className="mb-5 md:text-5xl text-3xl font-bold text-blue-900">
                             IT Training 
                             <br></br>
-                    
                             and 
                             <br></br>
-                           
                             Consultancy Services
-                         </h1>
-                       {/* <img src={heroImg1} alt="Coming Soon Illustration" style={{ maxWidth: '50', height: '50' }} /> */}
+                        </h1>
                     </div>
-                    <div className="lg:w-1/2" data-aos="fade-up" data-aos-delay="700">
+                    <div className="lg:w-1/2 overflow-y-auto" style={{ maxHeight: '400px' }} data-aos="fade-up" data-aos-delay="700">
                         <div className="text-left">
-                            <h1 className="mb-5 md:text-3xl text-2xl font-bold text-blue-900">Courses:</h1>
-                            <ul className="list-disc pl-4">
+                            <h1 className="mb-5 md:text-3xl text-2xl font-bold text-blue-900">Upcoming Classes:</h1>
+                            <div>
                                 {comingSoonCourses.map((course, index) => (
-                                    <ol key={index} className="mb-10 text-lg">
-                                        <span className="text-blue-900">{course.name}</span> - {' '}
-                                        <a href={course.formLink} target="_blank" rel="noopener noreferrer" className="text-white bg-blue-900 hover:bg-blue-800 py-1 px-1 rounded-full">
-                                            Enroll Now            
-                                        </a>
-                                       
-                                    </ol>
+                                    <CourseCard key={index} course={course} />
                                 ))}
-                                
-                            </ul>
-                        
+                            </div>
                         </div>
                     </div>
                 </div>
-                    {/* Image below "Coming Soon" text */}
-                        <div className="text-center mt-8">
-                        {/*<img src={heroImg1} alt="Coming Soon Illustration" style={{ maxWidth: '50', height: '50' }} /> */}
-
+                <div className="text-center mt-8">
+                    {/* Additional content below courses if needed */}
                 </div>
-
             </div>
         </div>
     );

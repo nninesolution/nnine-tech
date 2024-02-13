@@ -45,13 +45,13 @@ const Footer = () => {
                         <h6 className="text-[#013289] text-xl font-bold mb-4">OUR SERVICES</h6>
                         <ul className="text-md">
                         <li className="mb-2">
-                            <Link to="#" className="text-[#013289] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out">Web Development</Link>
+                            <Link to="#" className="text-[#013289] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out">DevOps Service</Link>
                         </li>
                         <li className="mb-2">
-                            <Link to="#" className="text-[#013289] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out">Mobile App Development</Link>
+                            <Link to="#" className="text-[#013289] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out">Web 3.0 Devops service</Link>
                         </li>
                         <li className="mb-2">
-                            <Link to="#" className="text-[#013289] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out">Domain and Hosting</Link>
+                            <Link to="#" className="text-[#013289] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out">Cloud Services & Migrations</Link>
                         </li>
                         <li className="mb-2">
                             <Link to="#" className="text-[#013289] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out">General IT Consultations</Link>
@@ -71,9 +71,9 @@ const Footer = () => {
                         <div className="mx-auto text-center mt-2">
                                 <ul className="flex justify-center mb-4 md:mb-0">
                                     <li>
-                                        <Link to="#" className="flex justify-center items-center text-blue-900 hover:text-gray-500 bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out" aria-label="Twitter">
-                                        <svg className="w-8 h-8 fill-current" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M24 11.5c-.6.3-1.2.4-1.9.5.7-.4 1.2-1 1.4-1.8-.6.4-1.3.6-2.1.8-.6-.6-1.5-1-2.4-1-1.7 0-3.2 1.5-3.2 3.3 0 .3 0 .5.1.7-2.7-.1-5.2-1.4-6.8-3.4-.3.5-.4 1-.4 1.7 0 1.1.6 2.1 1.5 2.7-.5 0-1-.2-1.5-.4 0 1.6 1.1 2.9 2.6 3.2-.3.1-.6.1-.9.1-.2 0-.4 0-.6-.1.4 1.3 1.6 2.3 3.1 2.3-1.1.9-2.5 1.4-4.1 1.4H8c1.5.9 3.2 1.5 5 1.5 6 0 9.3-5 9.3-9.3v-.4c.7-.5 1.3-1.1 1.7-1.8z" />
+                                    <Link to="https://www.linkedin.com/company/99439455/admin/feed/posts/#" target="_blank" className="flex justify-center items-center text-blue-900 hover:text-gray-500 bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out" aria-label="LinkedIn">
+                                        <svg className="w-8 h-8 fill-current text-blue-900" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                             <path d="M21.3 0H2.7C1.2 0 0 1.2 0 2.7v18.6C0 22.8 1.2 24 2.7 24h18.6c1.5 0 2.7-1.2 2.7-2.7V2.7C24 1.2 22.8 0 21.3 0zM7.9 20.4H4.4V9h3.5v11.4h.1zM6.1 7.7a1.9 1.9 0 1 1-.1-3.8c1 0 1.7.7 1.8 1.6v.1c0 .9-.7 2.2-1.7 2.1zM20.4 20.4h-3.4v-5.6c0-1.4-.5-2.3-1.8-2.3-1 0-1.6.7-1.9 1.4-.1.2-.1.5-.1.8v5.8h-3.4s.1-11.4 0-12.5h3.4v1.8c.4-.6 1.1-1.4 2.7-1.4 2 0 3.6 1.3 3.6 4.1v7.9z"/>
                                         </svg>
                                         </Link>
                                     </li>
