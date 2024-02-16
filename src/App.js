@@ -28,7 +28,7 @@ function App() {
     });
   }, []);
 
-  useDocTitle("NINE: WEB 3.0 Partner");
+  useDocTitle("N9 Solution: IT Training and Services");
 
   return (
     <>

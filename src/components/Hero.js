@@ -23,15 +23,13 @@ const Hero = () => {
 
             <div className="m-auto overflow-hidden mx-4 mt-24 lg:mt-4 p-2 md:p-12 h-screen" data-aos="zoom-in">
                 <div className="flex flex-col lg:flex-row py-8 justify-between text-center lg:text-left">
-                    <div className="lg:w-1/2 flex flex-col justify-center" data-aos="zoom-in" data-aos-delay="200">
-                        <h1 className="mb-5 md:text-5xl text-3xl font-bold text-blue-900">
-                            IT Training 
-                            <br></br>
-                            and 
-                            <br></br>
-                            Consultancy Services
-                        </h1>
-                    </div>
+                <div className="lg:w-1/2 flex flex-col justify-center items-center bg-blue-200 lg:bg-transparent py-8 rounded-lg" data-aos="zoom-in" data-aos-delay="200">
+                  <h1 className="mb-5 md:text-5xl text-3xl font-bold text-blue-900 text-center">
+                    IT Training <br className="hidden lg:block"/> and <br className="hidden lg:block"/>Services
+                 </h1>
+                </div>
+
+
                     <div className="lg:w-1/2 overflow-y-auto" style={{ maxHeight: '400px' }} data-aos="fade-up" data-aos-delay="700">
                         <div className="text-left">
                             <h1 className="mb-5 md:text-3xl text-2xl font-bold text-blue-900">Upcoming Classes:</h1>
