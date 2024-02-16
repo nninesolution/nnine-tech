@@ -1,3 +1,4 @@
+// CourseCard.js
 import React from 'react';
 
 const CourseCard = ({ course }) => {
@@ -15,6 +16,7 @@ const CourseCard = ({ course }) => {
                         View
                     </a>
                 </div>
+
             </div>
         </div>
     );
