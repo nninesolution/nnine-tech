@@ -3,8 +3,8 @@ import React from 'react';
 //import Cta from '../components/Cta';
 import Footer from '../components/Footer';
 import Hero from '../components/Hero';
+import CourseList from '../components/CourseList';
 //import Cardlist from '../components/Card';
-import CardList from '../components/Cardlist';
 //import Intro from '../components/Intro';
 //import Portfolio from '../components/Portfolio';
 //import Services from '../components/Services';
@@ -13,7 +13,7 @@ const Home = () => {
     return (
         <>
             <Hero />
-            <CardList/>
+            <CourseList/>
             <Footer />
             {/*
 e            <Intro />
