@@ -3,7 +3,7 @@ import React from 'react';
 
 const CourseCard = ({ course }) => {
     return (
-        <div className="bg-gray-200 rounded-lg p-3 mb-3 shadow-md">
+        <div className="bg-gray-100 rounded-lg p-2 mb-2 shadow-md">
             <div className="flex flex-col md:flex-row md:items-center md:justify-between">
                 <div className="md:w-2/3">
                     <h2 className="text-lg font-semibold text-gray-800 mb-2">{course.name}</h2>
