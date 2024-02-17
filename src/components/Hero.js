@@ -1,9 +1,6 @@
-import React from 'react';
-//import { Link } from 'react-router-dom';
+import React, { useState } from 'react';
 import NavBar from '../components/Navbar/NavBar';
 import CourseCard from './CourseCard';
-//import heroImg from '../images/comingsoon.jpg'; 
-//import heroImg1 from '../images/N91.png'; 
 
 const Hero = () => {
     const comingSoonCourses = [
@@ -15,30 +12,48 @@ const Hero = () => {
         { name: "AWS Cloud Practitioner", formLink: "https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link" },
         { name: "Data Analytics and Machine Learning", formLink: "https://docs.google.com/forms/d/e/1FAIpQLSdzWTfMvyRM87jKpef0BMQE1FqSoMD3VK_rXQWj1h0wgOSV2Q/viewform?usp=sf_link" }
     ];
+
+    const [showAll, setShowAll] = useState(false);
+
+    const toggleShowAll = () => {
+        setShowAll(!showAll);
+    };
+
+    const coursesToDisplay = showAll ? comingSoonCourses : comingSoonCourses.slice(0, 6);
+
     return (
         <div className="hero" id='hero'>
-            <div>
-                <NavBar />
-            </div>
-
-            <div className="m-auto overflow-hidden mx-4 mt-24 lg:mt-4 p-2 md:p-12 h-screen" data-aos="zoom-in">
+            <NavBar />
+            <div className="m-auto mx-4 mt-24 lg:mt-4 p-2 md:p-12" data-aos="zoom-in">
                 <div className="flex flex-col lg:flex-row py-8 justify-between text-center lg:text-left">
-                <div className="lg:w-1/2 flex flex-col justify-center items-center bg-blue-200 lg:bg-transparent py-8 rounded-lg" data-aos="zoom-in" data-aos-delay="200">
-                  <h1 className="mb-5 md:text-5xl text-3xl font-bold text-blue-900 text-center">
-                    IT Training <br className="hidden lg:block"/> and <br className="hidden lg:block"/>Services
-                 </h1>
-                </div>
+                    <div className="lg:w-1/2 flex flex-col justify-center items-center bg-blue-200 lg:bg-transparent py-8 rounded-lg" data-aos="zoom-in" data-aos-delay="200">
+                        <div className="max-w-lg w-full p-8 bg-blue-900 text-white text-center rounded-lg">
+                            <h1 className="text-3xl font-bold mb-4">Your N9 Solution Awaits</h1>
+                            <p className="text-lg">Empower your future with our expert IT training and services.</p>
+                        </div>
+                        <br></br>
+                        <div className="max-w-lg w-full p-8 bg-blue-900 text-white text-center rounded-lg">
+                           <h1 className="text-3xl font-bold mb-4">Together</h1>
+                            <p className="text-lg">Empowering Nepal's IT Industry through Training, Placement, and Innovation.</p>
+                        </div>
+                    </div>
 
-
-                    <div className="lg:w-1/2 overflow-y-auto" style={{ maxHeight: '400px' }} data-aos="fade-up" data-aos-delay="700">
-                        <div className="text-left">
+                    <div className="lg:w-1/2" data-aos="fade-up" data-aos-delay="700">
+                        <div className="text-left p-4">
                             <h1 className="mb-5 md:text-3xl text-2xl font-bold text-blue-900">Upcoming Classes:</h1>
                             <div>
-                                {comingSoonCourses.map((course, index) => (
+                                {coursesToDisplay.map((course, index) => (
                                     <CourseCard key={index} course={course} />
                                 ))}
                             </div>
                         </div>
+                        {!showAll && (
+                            <div className="text-center mt-4">
+                                {comingSoonCourses.length > 6 && (
+                                    <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" onClick={toggleShowAll}>See More</button>
+                                )}
+                            </div>
+                        )}
                     </div>
                 </div>
                 <div className="text-center mt-8">

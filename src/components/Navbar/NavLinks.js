@@ -1,24 +1,27 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { HashLink } from 'react-router-hash-link';
 
 const NavLinks = () => {
     return (
         <>
-        <Link className="text-black hover:bg-blue-800 inline-flex items-center justify-center w-auto px-4 py-2 rounded-xl" smooth to="/contactus">
-            </Link>
-            <HashLink className="text-black hover:bg-blue-800 inline-flex items-center justify-center w-auto px-4 py-2 rounded-xl" smooth to="/about">
-                About
-            </HashLink>
-            <HashLink className="text-black hover:bg-blue-800 inline-flex items-center justify-center w-auto px-4 py-2 rounded-xl" smooth to="/courselist">
-                Popular Courses
-            </HashLink>
-            <HashLink className="text-black hover:bg-blue-800 inline-flex items-center justify-center w-auto px-4 py-2 rounded-xl" smooth to="/trainers">
-                Trainers
-            </HashLink>
-             <HashLink className="text-black hover:bg-blue-800 inline-flex items-center justify-center w-auto px-4 py-2 rounded-xl" smooth to="/contact">
+            <Link className="font-bold text-blue-900 hover:bg-blue-100 inline-block md:inline-flex items-center justify-center w-auto px-4 py-2 rounded-xl" to="/contactus">
                 Contact Us
-    </HashLink> 
+            </Link>
+            <Link className="font-bold text-blue-900 hover:bg-blue-100 inline-block md:inline-flex items-center justify-center w-auto px-4 py-2 rounded-xl" to="/about">
+                About
+            </Link>
+            <Link className="font-bold text-blue-900 hover:bg-blue-100 inline-block md:inline-flex items-center justify-center w-auto px-4 py-2 rounded-xl" target='_blank' to="https://www.nnine.training/">
+                Trainings
+            </Link>
+            <Link className="font-bold text-blue-900 hover:bg-blue-100 inline-block md:inline-flex items-center justify-center w-auto px-4 py-2 rounded-xl" to="/courselist">
+                Popular Courses
+            </Link>
+            <Link className="font-bold text-blue-900 hover:bg-blue-100 inline-block md:inline-flex items-center justify-center w-auto px-4 py-2 rounded-xl" to="/trainers">
+                Trainers
+            </Link>
+            <Link className="font-bold text-blue-900 hover:bg-blue-100 inline-block md:inline-flex items-center justify-center w-auto px-4 py-2 rounded-xl" target='_blank' to="https://www.nnine.training/">
+                Blogs
+            </Link>
         </>
     )
 }
