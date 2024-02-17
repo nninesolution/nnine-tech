@@ -10,7 +10,7 @@ const NavLinks = () => {
             <Link className="font-bold text-blue-900 hover:bg-blue-100 inline-block md:inline-flex items-center justify-center w-auto px-4 py-2 rounded-xl" to="/about">
                 About
             </Link>
-            <Link className="font-bold text-blue-900 hover:bg-blue-100 inline-block md:inline-flex items-center justify-center w-auto px-4 py-2 rounded-xl" to="/about">
+            <Link className="font-bold text-blue-900 hover:bg-blue-100 inline-block md:inline-flex items-center justify-center w-auto px-4 py-2 rounded-xl" target='_blank' to="https://www.nnine.training/">
                 Trainings
             </Link>
             <Link className="font-bold text-blue-900 hover:bg-blue-100 inline-block md:inline-flex items-center justify-center w-auto px-4 py-2 rounded-xl" to="/courselist">
@@ -19,8 +19,8 @@ const NavLinks = () => {
             <Link className="font-bold text-blue-900 hover:bg-blue-100 inline-block md:inline-flex items-center justify-center w-auto px-4 py-2 rounded-xl" to="/trainers">
                 Trainers
             </Link>
-            <Link className="font-bold text-blue-900 hover:bg-blue-100 inline-block md:inline-flex items-center justify-center w-auto px-4 py-2 rounded-xl" to="/about">
-                About
+            <Link className="font-bold text-blue-900 hover:bg-blue-100 inline-block md:inline-flex items-center justify-center w-auto px-4 py-2 rounded-xl" target='_blank' to="https://www.nnine.training/">
+                Blogs
             </Link>
         </>
     )
