@@ -9,7 +9,7 @@ import Contact from './pages/Contact';
 import Portfolio from './components/Portfolio';
 import {useDocTitle} from './components/CustomHook';
 import ScrollToTop from './components/ScrollToTop';
-import CardList from './components/Cardlist';
+import CourseList from './components/CourseList';
 import TrainersPage from './components/TrainersPage';
 import About from './pages/About';
 
@@ -38,7 +38,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/portfolio" element={<Portfolio />} />
-            <Route path="/cardlist" element={<CardList />} />
+            <Route path="/courselist" element={<CourseList />} />
             <Route path="/about" element={<About />} />
             <Route path="/trainers" element={<TrainersPage/>} />
             {/* Remove the duplicate route for "/home" */}
