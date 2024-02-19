@@ -5,13 +5,13 @@ import TrainerProfile from './TrainersProfile';
 const TrainersPage = () => {
   const trainersData = [
     {
-      imageUrl: process.env.PUBLIC_URL + '/deepak.jpg',
+      imageUrl: process.env.PUBLIC_URL + '/deepak.png',
       imageAlt: 'deepak.jpg',
       name: 'Deepak Bomjan',
-      description: 'Certified DevOps trainer with more 15 years of industry experience',
+      description: 'Certified DevOps trainer with more than 15 years of industry experience',
     },
     {
-      imageUrl: process.env.PUBLIC_URL + '/jaya.jpg',
+      imageUrl: process.env.PUBLIC_URL + '/jaya.png',
       imageAlt: 'jaya.jpg',
       name: 'Jaya Kumar Neupane',
       description: 'Oracle-Certified trainer with 15 years of experience',
@@ -26,7 +26,7 @@ const TrainersPage = () => {
       imageUrl: process.env.PUBLIC_URL + '/saurav.jpg',
       imageAlt: 'saurav',
       name: 'Saurav Gautam',
-      description: 'Python/Django-Certified trainer with 15 years of experience',
+      description: 'Python/Django-Certified trainer with 10 years of experience',
     },
     {
       imageUrl: process.env.PUBLIC_URL + '/niresh.jpg',
@@ -41,7 +41,7 @@ const TrainersPage = () => {
       description: 'Certified dotnet trainer with 10 years of experience',
     },
     {
-      imageUrl: process.env.PUBLIC_URL + '/raj.jpg',
+      imageUrl: process.env.PUBLIC_URL + '/raj.png',
       imageAlt: 'Raj',
       name: 'Raj Kamal Thapa',
       description: 'Network Engineer with more than 15 years of industry experience',
