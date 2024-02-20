@@ -12,7 +12,8 @@ const CourseList = () => {
       description: '',
       //price: 'Rs 25000',
       startDate: '15th Falgun',
-      googleFormUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link'
+      googleFormUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link',
+      syllabusUrl: '/Syllabus/DevOps'
     },
     {
       imageUrl: process.env.PUBLIC_URL + '/aws.jpg',
@@ -38,7 +39,7 @@ const CourseList = () => {
       title: 'Full Stack MERN',
       //description: 'Coming Soon',
      // price: 'Rs 40000',
-      startDate: '15th Falgun',
+      startDate: '27 th Falgun',
       googleFormUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link'
     },
     {
@@ -56,7 +57,7 @@ const CourseList = () => {
       title: 'Digital Marketing',
       //description: 'Coming Soon',
       //price: 'Rs 20000',
-      startDate: '27th Falgun',
+      startDate: 'Coming Soon',
       googleFormUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link'
     },
     {
@@ -65,7 +66,7 @@ const CourseList = () => {
       title: 'AWS-solution-associate',
       //description: 'Coming Soon',
      // price: 'Rs 30000',
-      startDate: '15th Falgun',
+      startDate: '27th Falgun',
       googleFormUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link'
     },
     {
@@ -74,7 +75,7 @@ const CourseList = () => {
       title: 'Java',
       //description: 'Coming Soon',
       //price: 'Rs 30000',
-      startDate: '20th Falgun',
+      startDate: 'Coming Soon',
       googleFormUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link'
     },
     {
@@ -91,7 +92,7 @@ const CourseList = () => {
       title: 'Python with Django',
       //description: 'Coming Soon',
       //price: 'Rs 30000',
-      startDate: '20th Falgun',
+      startDate: 'Coming Soon',
       googleFormUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link'
     },{
       imageUrl: process.env.PUBLIC_URL + '/laravel.png',
@@ -99,7 +100,7 @@ const CourseList = () => {
       title: 'Laravel',
       //description: 'Coming Soon',
       //price: 'Rs 30000',
-      startDate: '20th Falgun',
+      startDate: 'Coming Soon',
       googleFormUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link'
     },{
       imageUrl: process.env.PUBLIC_URL + '/php.png',
@@ -107,7 +108,7 @@ const CourseList = () => {
       title: 'PHP MySQL',
       //description: 'Coming Soon',
      // price: 'Rs 30000',
-      startDate: '20th Falgun',
+      startDate: 'Coming Soon',
       googleFormUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link'
     },
     // Add more card data as needed

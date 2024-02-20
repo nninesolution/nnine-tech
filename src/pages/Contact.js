@@ -48,7 +48,7 @@ const Contact = () => {
                             <iframe
                                 title="Google Map"
                                 className="w-full h-full"
-                                src={`https://maps.app.goo.gl/CDmZguU6WZBpxgmg9`}
+                                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d441.5026713184476!2d85.34413695154572!3d27.71662644150758!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2snp!4v1708396723095!5m2!1sen!2snp"
                                 allowFullScreen
                             ></iframe>
                         </div>
