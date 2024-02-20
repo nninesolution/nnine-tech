@@ -1,5 +1,6 @@
 import React from 'react';
 import NavBar from '../components/Navbar/NavBar';
+import Footer from '../components/Footer'
 
 const DevOpsSyllabus = () => {
   return (
@@ -9,11 +10,7 @@ const DevOpsSyllabus = () => {
     <br></br>
     <br></br>
       <NavBar />
-      <div className="bg-black">
-        <br />
-        <br />
-        <br />
-        <br />
+      <div className="bg-blue-900">
         <div className="max-w-4xl mx-auto p-8 text-white">
           <h1 className="text-3xl font-bold mb-8 text-red-500">DevOps Syllabus</h1>
 
@@ -78,7 +75,8 @@ const DevOpsSyllabus = () => {
           </div>
         </div>
       </div>
-    </>
+    <Footer/>
+        </>
   );
 };
 
