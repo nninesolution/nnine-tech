@@ -56,7 +56,7 @@ const TrainersPage = () => {
       imageUrl: process.env.PUBLIC_URL + '/pradeep.jpg',
       imageAlt: 'Pradeep',
       name: 'Pradeep Aryal',
-      description: 'Mr Aryal holds the Masters degree from Germany. He is working as data anlayst and Machine learning engineer since last decade.',
+      description: 'Mr Aryal holds the Masters degree from Germany. He is working as data analayst and Machine learning engineer since last decade.',
     },
     
     // Add more trainer profiles as needed
