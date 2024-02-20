@@ -46,8 +46,22 @@ const TrainersPage = () => {
       name: 'Raj Kamal Thapa',
       description: 'Network Engineer with more than 15 years of industry experience',
     },
+    {
+      imageUrl: process.env.PUBLIC_URL + '/gyan.png',
+      imageAlt: 'Gyan',
+      name: 'Gyan Bahadur Tamang',
+      description: 'Oracle Certified trainer with more than 10 years of industry experience',
+    },
+    {
+      imageUrl: process.env.PUBLIC_URL + '/pradeep.jpg',
+      imageAlt: 'Pradeep',
+      name: 'Pradeep Aryal',
+      description: 'Mr Aryal holds the Masters degree from Germany. He is working as data anlayst and Machine learning engineer since last decade.',
+    },
+    
     // Add more trainer profiles as needed
   ];
+
 
   return (
     <>
