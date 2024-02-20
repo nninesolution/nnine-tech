@@ -86,7 +86,8 @@ const CourseList = () => {
       //price: 'Rs 30000',
       startDate: '20th Falgun',
       googleFormUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link'
-    },{
+    },
+    {
       imageUrl: process.env.PUBLIC_URL + '/django.png',
       imageAlt: 'django',
       title: 'Python with Django',
@@ -94,7 +95,8 @@ const CourseList = () => {
       //price: 'Rs 30000',
       startDate: 'Coming Soon',
       googleFormUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link'
-    },{
+    },
+    {
       imageUrl: process.env.PUBLIC_URL + '/laravel.png',
       imageAlt: 'laravel',
       title: 'Laravel',
@@ -102,7 +104,8 @@ const CourseList = () => {
       //price: 'Rs 30000',
       startDate: 'Coming Soon',
       googleFormUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link'
-    },{
+    },
+    {
       imageUrl: process.env.PUBLIC_URL + '/php.png',
       imageAlt: 'php',
       title: 'PHP MySQL',

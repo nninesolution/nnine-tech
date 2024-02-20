@@ -32,10 +32,10 @@ const Footer = () => {
                             <HashLink to="/about" className="text-[#013289] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out">About</HashLink>
                         </li>
                         <li className="mb-2">
-                            <HashLink to="/cardlist" className="text-[#013289] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out">Programs</HashLink>
+                            <HashLink to="/courselist" className="text-[#013289] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out">Programs</HashLink>
                         </li>
                         <li className="mb-2">
-                            <HashLink to="/contact" className="text-[#013289] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out">Contact</HashLink>
+                            <HashLink to="/contactus" className="text-[#013289] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out">Contact</HashLink>
                         </li>                            
                         </ul>
                     </div>
