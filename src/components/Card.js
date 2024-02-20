@@ -27,14 +27,13 @@ const Card = (props) => {
         </div>
       </div>
       <div className="px-6 py-4">
-      {/*  <button 
+        <button 
           className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-2 rounded mr-2"
           onClick={handleViewSyllabus} // Attach handleViewSyllabus function to onClick event
         >
           View Syllabus
         </button>
-  */}
- 
+
         <button 
           className="bg-green-500 hover:bg-green-700 text-white font-bold py-1 px-2 rounded"
           onClick={handleEnrollNow} // Attach handleEnrollNow function to onClick event

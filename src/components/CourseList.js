@@ -16,14 +16,36 @@ const CourseList = () => {
       syllabusUrl: '/Syllabus/DevOps'
     },
     {
-      imageUrl: process.env.PUBLIC_URL + '/aws.jpg',
-      imageAlt: 'Amazon AWS',
-      title: 'AWS',
+      imageUrl: process.env.PUBLIC_URL + '/datascience.jpg',
+      imageAlt: 'datascience',
+      title: 'Data Analytics and ML',
       //description: 'Coming Soon',
-     // price: 'Rs 25000',
+      //price: 'Rs 25000',
+      startDate: '20th Falgun',
+      syllabusUrl: '/Syllabus/DataAnalytics',
+      googleFormUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link'
+    },
+
+    {
+      imageUrl: process.env.PUBLIC_URL + '/AWS-Developer-Associate-Courses.png',
+      imageAlt: 'AWS-Developer Associate',
+      title: 'AWS-Developer-Associate',
+      //description: 'Coming Soon',
+      //price: 'Rs 30000',
       startDate: '20th Falgun',
       googleFormUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link'
     },
+    
+    {
+      imageUrl: process.env.PUBLIC_URL + '/AWS_solution_associate.png',
+      imageAlt: 'AWS-solution-associate',
+      title: 'AWS-solution-associate',
+      //description: 'Coming Soon',
+     // price: 'Rs 30000',
+      startDate: '27th Falgun',
+      googleFormUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link'
+    },
+  
     {
       imageUrl: process.env.PUBLIC_URL + '/rhel.jpg',
       imageAlt: 'rhel',
@@ -42,15 +64,7 @@ const CourseList = () => {
       startDate: '27 th Falgun',
       googleFormUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link'
     },
-    {
-      imageUrl: process.env.PUBLIC_URL + '/datascience.jpg',
-      imageAlt: 'datascience',
-      title: 'Data Analytics and ML',
-      //description: 'Coming Soon',
-      //price: 'Rs 25000',
-      startDate: '20th Falgun',
-      googleFormUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link'
-    },
+   
     {
       imageUrl: process.env.PUBLIC_URL + '/digitalmarketing.jpg',
       imageAlt: 'digitalmarketing',
@@ -60,16 +74,7 @@ const CourseList = () => {
       startDate: 'Coming Soon',
       googleFormUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link'
     },
-    {
-      imageUrl: process.env.PUBLIC_URL + '/AWS_solution_associate.png',
-      imageAlt: 'AWS-solution-associate',
-      title: 'AWS-solution-associate',
-      //description: 'Coming Soon',
-     // price: 'Rs 30000',
-      startDate: '27th Falgun',
-      googleFormUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link'
-    },
-    {
+      {
       imageUrl: process.env.PUBLIC_URL + '/java.jpg',
       imageAlt: 'java',
       title: 'Java',
@@ -78,15 +83,7 @@ const CourseList = () => {
       startDate: 'Coming Soon',
       googleFormUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link'
     },
-    {
-      imageUrl: process.env.PUBLIC_URL + '/AWS-Developer-Associate-Courses.png',
-      imageAlt: 'AWS-Developer Associate',
-      title: 'AWS-Developer-Associate',
-      //description: 'Coming Soon',
-      //price: 'Rs 30000',
-      startDate: '20th Falgun',
-      googleFormUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link'
-    },
+    
     {
       imageUrl: process.env.PUBLIC_URL + '/django.png',
       imageAlt: 'django',
@@ -112,6 +109,17 @@ const CourseList = () => {
       //description: 'Coming Soon',
      // price: 'Rs 30000',
       startDate: 'Coming Soon',
+      googleFormUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link'
+    },
+
+    {
+      imageUrl: process.env.PUBLIC_URL + '/aws.jpg',
+      imageAlt: 'Amazon AWS',
+      title: 'AWS',
+      //description: 'Coming Soon',
+     // price: 'Rs 25000',
+      startDate: '20th Falgun',
+      syllabusUrl: '/Syllabus/Aws',
       googleFormUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link'
     },
     // Add more card data as needed
