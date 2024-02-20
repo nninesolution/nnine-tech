@@ -58,6 +58,8 @@ const TrainersPage = () => {
       name: 'Pradeep Aryal',
       description: 'Mr Aryal holds a Master degree from Germany in Machine Learning and Data Science. He is working as data analyst and Machine learning engineer since last decade.',
     },
+
+
     
     // Add more trainer profiles as needed
   ];
