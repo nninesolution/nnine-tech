@@ -12,9 +12,6 @@ import ScrollToTop from './components/ScrollToTop';
 import CourseList from './components/CourseList';
 import TrainersPage from './components/TrainersPage';
 import Syllabus from './Syllabus'
-//import DevOps from './syllabus/DevOps';
-//import AWSDeveloperAssociateSyllabus from './syllabus/AWSDeveloperAssociateSyllabus';
-//import DataAnalytics from './syllabus/DataAnalytics';
 import About from './pages/About';
 
 function App() {
@@ -46,10 +43,6 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/syllabus/:subject" element={<Syllabus />} />
             <Route path="/trainers" element={<TrainersPage/>} />
-            {/*<Route path="/syllabus/DevOps" element={<DevOps/>} />
-           // <Route path="/syllabus/AWSDeveloperAssociateSyllabus" element={<AWSDeveloperAssociateSyllabus/>} />
-  //<Route path="/syllabus/DataAnalytics" element={<DataAnalytics/>} /> */}
-            {/* Remove the duplicate route for "/home" */}
          </Routes>
         </ScrollToTop>
       </Router>

@@ -88,6 +88,15 @@ const CourseList = () => {
     },
     
     {
+      imageUrl: process.env.PUBLIC_URL + '/AWS-Developer-Associate-Courses.png',
+      imageAlt: 'AWS-Developer Associate',
+      title: 'AWS-Developer-Associate',
+      //description: 'Coming Soon',
+      //price: 'Rs 30000',
+      startDate: '20th Falgun',
+      googleFormUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link'
+    },
+    {
       imageUrl: process.env.PUBLIC_URL + '/django.png',
       imageAlt: 'django',
       title: 'Python with Django',

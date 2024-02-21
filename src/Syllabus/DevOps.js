@@ -1,7 +1,6 @@
 import React from 'react';
 import NavBar from '../components/Navbar/NavBar';
 import Footer from '../components/Footer';
-
 const DevOpsSyllabus = () => {
   return (
     <>
@@ -77,7 +76,7 @@ const DevOpsSyllabus = () => {
     </div>
     <Footer/>
     </>
-  );
+     );
 };
 
 export default DevOpsSyllabus;
