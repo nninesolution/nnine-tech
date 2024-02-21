@@ -11,7 +11,7 @@ import {useDocTitle} from './components/CustomHook';
 import ScrollToTop from './components/ScrollToTop';
 import CourseList from './components/CourseList';
 import TrainersPage from './components/TrainersPage';
-import Syllabus from './Syllabus'
+import Syllabusmap from './Syllabusmap';
 import About from './pages/About';
 
 function App() {
@@ -41,7 +41,7 @@ function App() {
             <Route path="/portfolio" element={<Portfolio />} />
             <Route path="/courselist" element={<CourseList />} />
             <Route path="/about" element={<About />} />
-            <Route path="/syllabus/:subject" element={<Syllabus />} />
+            <Route path="/syllabus/:subject" element={<Syllabusmap/>} />
             <Route path="/trainers" element={<TrainersPage/>} />
          </Routes>
         </ScrollToTop>

@@ -47,7 +47,16 @@ const CourseList = () => {
       syllabusUrl: '/syllabus/AWSSolutionArchitect',
       googleFormUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link'
     },
-  
+    {
+      imageUrl: process.env.PUBLIC_URL + '/django.png',
+      imageAlt: 'django',
+      title: 'Python with Django',
+      //description: 'Coming Soon',
+      //price: 'Rs 30000',
+      startDate: 'Coming Soon',
+      syllabusUrl: '/syllabus/PythonDjangoSyllabus',
+      googleFormUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link'
+    },
     {
       imageUrl: process.env.PUBLIC_URL + '/rhel.jpg',
       imageAlt: 'rhel',
@@ -96,15 +105,7 @@ const CourseList = () => {
       startDate: '20th Falgun',
       googleFormUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link'
     },
-    {
-      imageUrl: process.env.PUBLIC_URL + '/django.png',
-      imageAlt: 'django',
-      title: 'Python with Django',
-      //description: 'Coming Soon',
-      //price: 'Rs 30000',
-      startDate: 'Coming Soon',
-      googleFormUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link'
-    },
+    
     {
       imageUrl: process.env.PUBLIC_URL + '/laravel.png',
       imageAlt: 'laravel',

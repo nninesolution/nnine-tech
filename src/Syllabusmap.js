@@ -5,8 +5,9 @@ import AWSDeveloperAssociateSyllabus from './syllabus/AWSDeveloperAssociateSylla
 import DataAnalytics from './syllabus/DataAnalytics';
 import AWSSolutionsArchitect from './syllabus/AWSSolutionArchitect';
 import MERNStackSyllabus from './syllabus/MERNStackSyllabus';
+import PythonDjangoSyllabus from './syllabus/PythonDjangoSyllabus'
 
-function Syllabus() {
+function Syllabusmap() {
   const { subject } = useParams();
 
   switch (subject) {
@@ -20,10 +21,12 @@ function Syllabus() {
       return <AWSSolutionsArchitect/>;
     case 'MERNStackSyllabus':
       return <MERNStackSyllabus/>;
+      case 'PythonDjangoSyllabus':
+      return <PythonDjangoSyllabus/>;
     default:
       return <div>Invalid syllabus subject</div>;
   }
 }
 
-export default Syllabus;
+export default Syllabusmap;
 
