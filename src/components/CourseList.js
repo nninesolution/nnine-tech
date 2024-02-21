@@ -13,7 +13,7 @@ const CourseList = () => {
       //price: 'Rs 25000',
       startDate: '15th Falgun',
       googleFormUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link',
-      syllabusUrl: '/Syllabus/DevOps'
+      syllabusUrl: '/syllabus/DevOps'
     },
     {
       imageUrl: process.env.PUBLIC_URL + '/datascience.jpg',
@@ -22,7 +22,7 @@ const CourseList = () => {
       //description: 'Coming Soon',
       //price: 'Rs 25000',
       startDate: '20th Falgun',
-      syllabusUrl: '/Syllabus/DataAnalytics',
+      syllabusUrl: '/syllabus/DataAnalytics',
       googleFormUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link'
     },
 
@@ -33,6 +33,7 @@ const CourseList = () => {
       //description: 'Coming Soon',
       //price: 'Rs 30000',
       startDate: '20th Falgun',
+      syllabusUrl: '/syllabus/AWSDeveloperAssociateSyllabus',
       googleFormUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link'
     },
     
@@ -43,6 +44,7 @@ const CourseList = () => {
       //description: 'Coming Soon',
      // price: 'Rs 30000',
       startDate: '27th Falgun',
+      syllabusUrl: '/syllabus/AWSSolutionArchitect',
       googleFormUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link'
     },
   
@@ -62,6 +64,7 @@ const CourseList = () => {
       //description: 'Coming Soon',
      // price: 'Rs 40000',
       startDate: '27 th Falgun',
+      syllabusUrl: '/syllabus/MERNStackSyllabus',
       googleFormUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link'
     },
    
