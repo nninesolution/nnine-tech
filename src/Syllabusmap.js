@@ -1,6 +1,6 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import DevOps from './syllabus/DevOps';
+import DevOpsSyllabus from './syllabus/DevOpsSyllabus';
 import AWSDeveloperAssociateSyllabus from './syllabus/AWSDeveloperAssociateSyllabus';
 import DataAnalytics from './syllabus/DataAnalytics';
 import AWSSolutionsArchitect from './syllabus/AWSSolutionArchitect';
@@ -11,8 +11,8 @@ function Syllabusmap() {
   const { subject } = useParams();
 
   switch (subject) {
-    case 'DevOps':
-      return <DevOps />;
+    case 'DevOpsSyllabus':
+      return <DevOpsSyllabus/>;
     case 'AWSDeveloperAssociateSyllabus':
       return <AWSDeveloperAssociateSyllabus />;
     case 'DataAnalytics':
