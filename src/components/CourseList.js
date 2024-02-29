@@ -11,9 +11,18 @@ const CourseList = () => {
       title: 'DeVOps',
       description: '',
       //price: 'Rs 25000',
-      startDate: '15th Falgun',
+      startDate: '24th Falgun',
       googleFormUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link',
       syllabusUrl: '/Syllabus/DevOps'
+    },
+    {
+      imageUrl: process.env.PUBLIC_URL + '/dotnet.jpg',
+      imageAlt: 'dotnet',
+      title: 'ASP .NET',
+      //description: 'Coming Soon',
+      //price: 'Rs 30000',
+      startDate: '27th Falgun',
+      googleFormUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link'
     },
     {
       imageUrl: process.env.PUBLIC_URL + '/datascience.jpg',
@@ -21,7 +30,7 @@ const CourseList = () => {
       title: 'Data Analytics and ML',
       //description: 'Coming Soon',
       //price: 'Rs 25000',
-      startDate: '20th Falgun',
+      startDate: '27th Falgun',
       syllabusUrl: '/Syllabus/DataAnalytics',
       googleFormUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link'
     },
@@ -32,15 +41,15 @@ const CourseList = () => {
       title: 'AWS-Developer-Associate',
       //description: 'Coming Soon',
       //price: 'Rs 30000',
-      startDate: '20th Falgun',
+      startDate: '27th Falgun',
       syllabusUrl: '/Syllabus/AwsDeveloperAssociate',
       googleFormUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link'
     },
     
     {
       imageUrl: process.env.PUBLIC_URL + '/AWS_solution_associate.png',
-      imageAlt: 'AWS-solution-associate',
-      title: 'AWS-solution-associate',
+      imageAlt: 'AWS-Solution-Associate',
+      title: 'AWS-Solution-Associate',
       //description: 'Coming Soon',
      // price: 'Rs 30000',
       startDate: '27th Falgun',

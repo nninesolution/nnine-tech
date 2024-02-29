@@ -3,6 +3,8 @@ import NavBar from '../components/Navbar/NavBar';
 import CourseCard from './CourseCard';
 
 const Hero = () => {
+    const [heroImage, setHeroImage] = useState("./Devopswrk.png"); // Initial image source
+
     const comingSoonCourses = [
         { name: "DevOps", formLink: "https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link" },
         { name: "AWS Solution Associate", formLink: "https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link" },
@@ -21,16 +23,21 @@ const Hero = () => {
 
     const coursesToDisplay = showAll ? comingSoonCourses : comingSoonCourses.slice(0, 6);
 
+    // Function to change the hero image
+    const changeHeroImage = (newImage) => {
+        setHeroImage(newImage);
+    };
+
     return (
         <div className="hero" id='hero'>
             <NavBar />
             <div className="m-auto mx-4 mt-24 lg:mt-4 p-2 md:p-12" data-aos="zoom-in">
                 <div className="flex flex-col lg:flex-row py-8 justify-between text-center lg:text-left">
                     <div className="lg:w-1/2 flex flex-col justify-center items-center bg-blue-200 lg:bg-transparent py-8 rounded-lg" data-aos="zoom-in" data-aos-delay="200">
-                        <div className="max-w-lg w-full p-8 bg-blue-900 text-white text-center rounded-lg">
-                            <h1 className="text-3xl font-bold mb-4">Your N9 Solution Awaits</h1>
-                            <p className="text-lg">Empower your future with our expert IT training and services.</p>
-                        </div>
+                    <div className="max-w-lg w-full p-8 text-white text-center rounded-lg">
+                            {/* Display dynamic hero image */}
+                           <img src={heroImage} alt="Hero" className="rounded-lg w-full" />
+                    </div>
                         <br></br>
                         <div className="max-w-lg w-full p-8 bg-blue-900 text-white text-center rounded-lg">
                            <h1 className="text-3xl font-bold mb-4">Together</h1>
