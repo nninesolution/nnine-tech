@@ -16,10 +16,9 @@ const Footer = () => {
                         <div className="box-border border-b-4 border-blue-900 p-8 bg-gray-200 text-gray-600 text-center rounded-lg xl:w-80 mx-auto">
                             <h3 className="font-bold text-4xl mb-4">N9 Solution</h3>
                             <div className='text-md font-medium text-gray-600'>
-                                <h5>Chabahil (White House Building)</h5>
-                                <p>Kathmandu,Bagmati</p>
-                                <p>Nepal,</p>
-                                <p>Bagmati State.</p>
+                                <h5>5th Floor, White House Building</h5>
+                                <p>Chabahil,Kathmandu</p>
+                                <p>Nepal</p>
                             </div>
                         </div>
                     </div>
