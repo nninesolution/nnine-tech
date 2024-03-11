@@ -39,7 +39,7 @@ const Hero = () => {
                            <img src={heroImage} alt="Hero" className="rounded-lg w-full" />
                     </div>
                         <br></br>
-                        <div className="max-w-lg w-full p-8 bg-blue-900 text-white text-center rounded-lg">
+                        <div className="max-w-lg w-full p-8 bg-blue-500 text-white text-center rounded-lg">
                            <h1 className="text-3xl font-bold mb-4">Together</h1>
                             <p className="text-lg">Empowering Nepal's IT Industry through Training, Placement, and Innovation.</p>
                         </div>
