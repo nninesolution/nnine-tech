@@ -47,6 +47,7 @@ const Hero = () => {
                         )}
                         <div className="max-w-lg w-full p-8 bg-blue-900 text-white text-center rounded-lg absolute bottom-0 left-0 transform translate-x-0 translate-y-full transition duration-300 ease-in-out">
                             <h1 className="text-3xl font-bold mb-4">Together</h1>
+
                             <p className="text-lg">Empowering Nepal's IT Industry through Training, Placement, and Innovation.</p>
                         </div>
                         <div className="max-w-lg w-full p-8 bg-blue-900 text-white text-center rounded-lg absolute bottom-0 left-0 transform translate-x-0 translate-y-full transition duration-300 ease-in-out">
