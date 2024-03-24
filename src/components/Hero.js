@@ -3,12 +3,12 @@ import NavBar from '../components/Navbar/NavBar';
 import CourseCard from './CourseCard';
 
 const Hero = () => {
-    const [heroImage, setHeroImage] = useState("./Devopswrk.png"); // Initial image source
+    const [heroImage, setHeroImage] = useState("./awsonline.jpg"); // Initial image source
     const [hovered, setHovered] = useState(false);
 
     const comingSoonCourses = [
         { name: "DevOps", formLink: "https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link" },
-        { name: "AWS Solution Associate", formLink: "https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link" },
+        { name: "AWS Cloud Practitioner (Online Class)", formLink: "https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link" },
         { name: "AWS Developer Associate", formLink: "https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link" },
         { name: "RHEL", formLink: "https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link" },
         { name: "ORACLE", formLink: "https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link" },
@@ -41,7 +41,7 @@ const Hero = () => {
                     >
                         <img src={heroImage} alt="Hero" className="rounded-lg w-full" />
                         {hovered && (
-                            <a href="https://forms.gle/7EpqaZr8ER23gz596" target='_blank' className="absolute inset-0 flex items-center justify-center bg-blue-500 bg-opacity-75 text-white text-2xl font-bold rounded-lg transition duration-300 ease-in-out">
+                            <a href="https://forms.gle/ujSDDpW5ESqbrLNf9" target='_blank' className="absolute inset-0 flex items-center justify-center bg-blue-500 bg-opacity-75 text-white text-2xl font-bold rounded-lg transition duration-300 ease-in-out">
                                 Enroll Now
                             </a>
                         )}
@@ -51,19 +51,7 @@ const Hero = () => {
                             <p className="text-lg">Empowering Nepal's IT Industry through Training, Placement, and Innovation.</p>
                         </div>
                         <div className="max-w-lg w-full p-8 bg-blue-900 text-white text-center rounded-lg absolute bottom-0 left-0 transform translate-x-0 translate-y-full transition duration-300 ease-in-out">
-                            <p className="text-sm mt-2">Are you ready to embark on an enlightening journey into the realms of DevOps, Cloud Computing, Microservices, and Serverless Technologies? 🌐💻 Join us for an exclusive workshop on February 19th, from 13:00 to 15:00 (GMT), at the White House Building (5th floor), Ganesthan, Chabahil.
-
-                            Led by industry veteran Mr. Deepak Bomjan, boasting over 15 years of invaluable experience gained from renowned companies such as Logpoint, CAS Trading, Worldlink, and Venture23, this workshop promises to be an immersive experience like no other.
-
-                            🔹 DevOps: Streamline your development processes, enhance collaboration, and automate deployments for faster, more reliable software delivery.
-                            🔹 Cloud Computing: Explore the power of cloud platforms for scalability, flexibility, and cost-efficiency in your applications.
-                            🔹 Microservices: Discover the art of building modular, scalable architectures for rapid innovation and seamless integration.
-                            🔹 Serverless Technologies: Dive into the future of computing with serverless architectures, revolutionizing development by abstracting infrastructure management.
-
-                            Whether you're a seasoned professional or just starting your tech journey, this workshop offers invaluable insights and hands-on experience to propel your career forward. 💡
-
-                            Don't miss out on this incredible opportunity! Reserve your spot now before it's too late! Limited seats available! 🎟️
-
+                            <p className="text-sm mt-2">
                             🔗 Register Here: https://forms.gle/7EpqaZr8ER23gz596</p>
                         </div>
                     </div>
