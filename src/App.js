@@ -17,6 +17,7 @@ import AwsSolutionArchitect from './Syllabus/AwsSolutionArchitect';
 import AwsDeveloperAssociate from './Syllabus/AwsDeveloperAssociate';
 import PythonWithDjango from './Syllabus/PythonWithDjango';
 import MernSyllabus from './Syllabus/MernSyllabus';
+import AWSPractitionerSyllabus from './Syllabus/AWSPractitionerSyllabus';
 import About from './pages/About';
 
 function App() {
@@ -53,6 +54,7 @@ function App() {
             <Route path="/Syllabus/AwsDeveloperAssociate" element={<AwsDeveloperAssociate/>} />
             <Route path="/Syllabus/AwsSolutionArchitect" element={<AwsSolutionArchitect/>} />
             <Route path="/Syllabus/PythonWithDjango" element={<PythonWithDjango/>} />
+            <Route path="/Syllabus/AWSPractitionerSyllabus" element={<AWSPractitionerSyllabus/>} />
             {/* Remove the duplicate route for "/home" */}
          </Routes>
         </ScrollToTop>
