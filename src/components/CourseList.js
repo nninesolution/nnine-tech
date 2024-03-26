@@ -16,12 +16,23 @@ const CourseList = () => {
       syllabusUrl: '/Syllabus/DevOps'
     },
     {
+
+      imageUrl: process.env.PUBLIC_URL + '/AWSCloudPractitioner.jpeg',
+      imageAlt: 'AWS-Cloud-Practitioner',
+      title: 'AWS Cloud Practitioner',
+      //description: 'Coming Soon',
+      price: 'Rs 5000',
+      courseDuration: '15 Hours (online)',
+      syllabusUrl: '/Syllabus/AWSPractitionerSyllabus',
+      googleFormUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link'
+    },
+    {
       imageUrl: process.env.PUBLIC_URL + '/mern.jpg',
       imageAlt: 'mern',
       title: 'Full Stack MERN',
       //description: 'Coming Soon',
      // price: 'Rs 40000',
-      courseDuration: '2 Months',
+      courseDuration: '2.5 Months',
       syllabusUrl: '/Syllabus/MernSyllabus',
       googleFormUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link'
     },
@@ -31,7 +42,7 @@ const CourseList = () => {
       title: 'ASP .NET',
       //description: 'Coming Soon',
       //price: 'Rs 30000',
-      courseDuration: '2 Months',
+      courseDuration: '2.5 Months',
       googleFormUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link'
     },
     {
@@ -97,17 +108,7 @@ const CourseList = () => {
       googleFormUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link'
     },
     
-    {
-
-      imageUrl: process.env.PUBLIC_URL + '/AWS-Developer-Associate-Courses.png',
-      imageAlt: 'AWS-Developer Associate',
-      title: 'AWS-Developer-Associate',
-      //description: 'Coming Soon',
-      //price: 'Rs 30000',
-      courseDuration: '2 Months',
-      syllabusUrl: '/Syllabus/AwsDeveloperAssociate',
-      googleFormUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link'
-    },
+    
     {
       imageUrl: process.env.PUBLIC_URL + '/django.png',
       imageAlt: 'django',
