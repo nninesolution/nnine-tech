@@ -7,7 +7,7 @@ const Hero = () => {
         // Redirect to Google Form registration page
         window.open('https://forms.gle/in86LKYEFJRimao1A', '_blank');
     };
-
+    
     return (
         <>
             <br />
