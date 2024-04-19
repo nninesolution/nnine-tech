@@ -26,7 +26,6 @@ const CourseList = () => {
       syllabusUrl: '/Syllabus/CPlusPlusSyllabus'
     },
     {
-
       imageUrl: process.env.PUBLIC_URL + '/AWSCloudPractitioner.jpeg',
       imageAlt: 'AWS-Cloud-Practitioner',
       title: 'AWS Cloud Practitioner',
