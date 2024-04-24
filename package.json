@@ -29,6 +29,9 @@
     "eject": "react-scripts eject",
     "dev": "next dev"
   },
+"next": {
+  "distDir": "build"
+},
 
   "browserslist": {
     "production": [
