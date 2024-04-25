@@ -17,8 +17,4 @@
   status = 200
   to = "/index.html"
 
-# Netlify Next.js plugin configuration
-[[plugins]]
-  package = "@netlify/plugin-nextjs"
-  [plugins.inputs]
-    publishDir = "out"
+
