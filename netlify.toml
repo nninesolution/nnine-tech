@@ -1,7 +1,7 @@
 [build]
   base = "/"
   command = "npm run build"
-  publish = "out"
+  publish = "/opt/build/repo/out"
 [build.environment]
   NODE_VERSION = "18"
 [functions]
@@ -16,3 +16,9 @@
   from = "/*"
   status = 200
   to = "/index.html"
+
+# Netlify Next.js plugin configuration
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+  [plugins.inputs]
+    publishDir = "/opt/build/repo/out"
