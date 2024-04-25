@@ -1,17 +1,14 @@
 [build]
-
-  command = "npm run build"
+command = "npm run build"
+# publish = "build"
   publish = "out"
-[build.environment]
-  NODE_VERSION = "18"
-[functions]
-  external_node_modules = ["express", "mongodb"]
-  node_bundler = "esbuild"
-[[redirects]]
-  force = true
-  from = "/api/*"
-  status = 200
-  to = "/.netlify/functions/api/:splat"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
+[[plugins]]
+  package = "netlify-plugin-cache-nextjs"
+  
 [[redirects]]
   from = "/*"
   status = 200
