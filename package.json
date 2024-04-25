@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@netlify/plugin-nextjs": "^5.1.2",
     "aos": "^3.0.0-beta.6",
     "axios": "^1.6.7",
     "body-parser": "^1.20.2",
@@ -22,15 +23,13 @@
     "use-places-autocomplete": "^4.0.1",
     "web-vitals": "^2.1.2"
   },
- "scripts": {
+  "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts --openssl-legacy-provider build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "dev": "next dev"
   },
-
-
   "browserslist": {
     "production": [
       ">0.2%",
