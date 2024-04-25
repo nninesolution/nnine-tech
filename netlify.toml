@@ -1,6 +1,6 @@
 [build]
   command = "npm run build"
-  publish = ".next" # Update this to match your Next.js build output directory
+  publish = "build" # Update this to match your Next.js build output directory
 
 
 [[plugins]]
