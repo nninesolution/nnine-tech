@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/nnine_deploy_ghnp/static/css/main.18531fef.css",
+    "main.js": "/nnine_deploy_ghnp/static/js/main.ff6fafc1.js",
+    "static/media/footer.svg": "/nnine_deploy_ghnp/static/media/footer.f7b67a1234a7ce02c909.svg",
+    "index.html": "/nnine_deploy_ghnp/index.html",
+    "static/media/hero-bg.svg": "/nnine_deploy_ghnp/static/media/hero-bg.2237f2b6be81c21a80a6.svg",
+    "main.18531fef.css.map": "/nnine_deploy_ghnp/static/css/main.18531fef.css.map",
+    "main.ff6fafc1.js.map": "/nnine_deploy_ghnp/static/js/main.ff6fafc1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.18531fef.css",
+    "static/js/main.ff6fafc1.js"
+  ]
+}
