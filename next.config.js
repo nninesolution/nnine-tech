@@ -6,7 +6,7 @@
     // If you are using Next.js 10.x or later, use the following:
     // This specifies the output directory for the production build
     // The development build output directory is always ".next"
-    output: 'build',
+    distDir: 'build',
   
     // Other Next.js configuration options can be added here
 };
