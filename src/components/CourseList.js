@@ -16,16 +16,7 @@ const CourseList = () => {
       syllabusUrl: '/Syllabus/DevOps'
     },
     {
-      imageUrl: process.env.PUBLIC_URL + '/cplusplus.jpeg',
-      imageAlt: 'C++',
-      title: 'C++',
-      description: '',
-      //price: 'Rs 25000',
-      courseDuration: '2 Months',
-      googleFormUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link',
-      syllabusUrl: '/Syllabus/CPlusPlusSyllabus'
-    },
-    {
+
       imageUrl: process.env.PUBLIC_URL + '/AWSCloudPractitioner.jpeg',
       imageAlt: 'AWS-Cloud-Practitioner',
       title: 'AWS Cloud Practitioner',
@@ -105,39 +96,8 @@ const CourseList = () => {
       //description: 'Coming Soon',
       //price: 'Rs 20000',
       courseDuration: '2 Months',
-      syllabusUrl: '/Syllabus/DigitalMArketingSyllabus',
       googleFormUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link'
     },
-    {
-      imageUrl: process.env.PUBLIC_URL + '/ethical.jpeg',
-      imageAlt: 'EthicalHacking',
-      title: 'Ethical Hacking',
-      //description: 'Coming Soon',
-      //price: 'Rs 20000',
-      courseDuration: '1.5 Months',  
-      syllabusUrl: '/Syllabus/EthicalHackingSyllabus',
-      googleFormUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link' 
-       },
-         {
-          imageUrl: process.env.PUBLIC_URL + '/computerbasics.png',
-          imageAlt: 'computerbasics',
-          title: 'Computer Basics',
-          //description: 'Coming Soon',
-          //price: 'Rs 20000',
-          courseDuration: '1.5 Months',  
-          syllabusUrl: '/Syllabus/ComputerBasicsSyllabus',
-          googleFormUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link' 
-           },
-           {
-            imageUrl: process.env.PUBLIC_URL + '/redhatopenshiftdevI.png',
-            imageAlt: 'redhatopen',
-            title: 'Redhat Openshift Dev-I',
-            //description: 'Coming Soon',
-            //price: 'Rs 20000',
-            courseDuration: '1.5 Months',  
-            syllabusUrl: '/Syllabus/RedHatOpenShiftDevISyllabus',
-            googleFormUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link' 
-             },
       {
       imageUrl: process.env.PUBLIC_URL + '/java.jpg',
       imageAlt: 'java',
@@ -187,148 +147,6 @@ const CourseList = () => {
      courseDuration: '1.5 Months',
       syllabusUrl: '/Syllabus/Aws',
       googleFormUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link'
-    },
-    {
-      imageUrl: process.env.PUBLIC_URL + "/BasicComputerCourse.jpg",
-      imageAlt: "Basic Computer Course",
-      title: "Basic Computer Course",
-      description: "",
-      //price: 'Rs 25000',
-      courseDuration: "1 Months",
-      googleFormUrl:
-        "https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link",
-      syllabusUrl: "/Syllabus/BasicComputerCourse",
-    },
-    {
-      imageUrl: process.env.PUBLIC_URL + "/OpenShift.jpg",
-      imageAlt: "OpenShift",
-      title: "Open Shift",
-      description: "",
-      courseDuration: "2 Months",
-      googleFormUrl:
-        "https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link",
-      syllabusUrl: "/Syllabus/OpenShiftSyllabus",
-    },
-    {
-      imageUrl: process.env.PUBLIC_URL + "/C++.jpg",
-      imageAlt: "C++",
-      title: "C++",
-      description: "",
-      //price: 'Rs 25000',
-      courseDuration: "2 Months",
-      googleFormUrl:
-        "https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link",
-      syllabusUrl: "/Syllabus/CPlusPlusSyllabus",
-    },
-    {
-      imageUrl: process.env.PUBLIC_URL + "/OpenShiftAdministrator.jpg",
-      imageAlt: "OpenShiftAdministrator",
-      title: "Open Shift Administrator",
-      description: "",
-      //price: 'Rs 25000',
-      courseDuration: "2 Months",
-      googleFormUrl:
-        "https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link",
-      syllabusUrl: "/Syllabus/OpenShiftAdministratorSyllabus",
-    },
-    {
-      imageUrl: process.env.PUBLIC_URL + "/python.jpg",
-      imageAlt: "python",
-      title: "Python",
-      description: "",
-      //price: 'Rs 25000',
-      courseDuration: "2.5 Months",
-      googleFormUrl:
-        "https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link",
-      syllabusUrl: "/Syllabus/PythonSyllabus",
-    },
-    {
-      imageUrl: process.env.PUBLIC_URL + "/QualityAssuarance.jpg",
-      imageAlt: "QualityAssuarance",
-      title: "Quality Assuarance",
-      description: "",
-      //price: 'Rs 25000',
-      courseDuration: "2.5 Months",
-      googleFormUrl:
-        "https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link",
-      syllabusUrl: "/Syllabus/QualityAssuranceSyllabus",
-    },
-    {
-      imageUrl: process.env.PUBLIC_URL + "/WebDesign.jpg",
-      imageAlt: "Web Design",
-      title: "Web Design",
-      description: "",
-      //price: 'Rs 25000',
-      courseDuration: "2.5 Months",
-      googleFormUrl:
-        "https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link",
-      syllabusUrl: "/Syllabus/WebDesignSyllabus",
-    },
-    {
-      imageUrl: process.env.PUBLIC_URL + "/VideoEditing.jpg",
-      imageAlt: "VideoEditing",
-      title: "Video Editing",
-      description: "",
-      //price: 'Rs 25000',
-      courseDuration: "2.5 Months",
-      googleFormUrl:
-        "https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link",
-      syllabusUrl: "/Syllabus/VideoSyllabus",
-    },
-    {
-      imageUrl: process.env.PUBLIC_URL + "/WebDevelopment.jpg",
-      imageAlt: "Web Development",
-      title: "Web Development",
-      description: "",
-      //price: 'Rs 25000',
-      courseDuration: "2.5 Months",
-      googleFormUrl:
-        "https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link",
-      syllabusUrl: "/Syllabus/WebdevelopmentSyllabus",
-    },
-    {
-      imageUrl: process.env.PUBLIC_URL + "/DevOpsMaster.jpg",
-      imageAlt: "DevOps Master",
-      title: "DevOps Master",
-      description: "",
-      //price: 'Rs 25000',
-      courseDuration: "2.5 Months",
-      googleFormUrl:
-        "https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link",
-      syllabusUrl: "/Syllabus/DevOpsMasterSyllabus",
-    },
-    {
-      imageUrl: process.env.PUBLIC_URL + "/OracleDBA.jpg",
-      imageAlt: "Oracle DBA",
-      title: "Oracle DBA",
-      description: "",
-      //price: 'Rs 25000',
-      courseDuration: "2.5 Months",
-      googleFormUrl:
-        "https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link",
-      syllabusUrl: "/Syllabus/OracleDBASyllabus",
-    },
-    {
-      imageUrl: process.env.PUBLIC_URL + "/CProgramming.jpg",
-      imageAlt: "C Programming",
-      title: "C Programming",
-      description: "",
-      //price: 'Rs 25000',
-      courseDuration: "2.5 Months",
-      googleFormUrl:
-        "https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link",
-      syllabusUrl: "/Syllabus/CProgrammingSyllabus",
-    },
-    {
-      imageUrl: process.env.PUBLIC_URL + "/GraphicDesign.jpg",
-      imageAlt: "Graphic Design",
-      title: "Graphic Design",
-      description: "",
-      //price: 'Rs 25000',
-      courseDuration: "2.5 Months",
-      googleFormUrl:
-        "https://docs.google.com/forms/d/e/1FAIpQLSfuHU-I10NxIU1XH37Yv7lik4pp3aP3WS18QwiU-NWYhDRh8g/viewform?usp=sf_link",
-      syllabusUrl: "/Syllabus/GraphicDesignSyllabus",
     },
     // Add more card data as needed
   ];
