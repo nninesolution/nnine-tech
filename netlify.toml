@@ -6,4 +6,4 @@ publish = "build"
   package = "@netlify/plugin-nextjs"
 
 [[plugins]]
-  package = "netlify-plugin-cache"
+  package = "netlify-plugin-cache-nextjs"
