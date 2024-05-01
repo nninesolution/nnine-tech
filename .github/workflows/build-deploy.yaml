@@ -39,7 +39,7 @@ jobs:
         run: |
           docker images
           
-          docker tag nimto-fe:$(git log -1 --pretty=format:%h) ${{ vars.DOCKERHUB_NIMTO_FE }}:$(git log -1 --pretty=format:%h)
+          docker tag nnine-fe:$(git log -1 --pretty=format:%h) ${{ vars.DOCKERHUB_NIMTO_FE }}:$(git log -1 --pretty=format:%h)
            
           # push
           docker push ${{ vars.DOCKERHUB_NIMTO_FE }}:$(git log -1 --pretty=format:%h)
