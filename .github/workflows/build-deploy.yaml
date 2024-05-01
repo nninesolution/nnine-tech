@@ -33,7 +33,7 @@ jobs:
           password: ${{ secrets.DOCKER_HUB_ACCESS_TOKEN }}
 
       - name: build frontend
-        run : docker build -t nimto-fe:$(git log -1 --pretty=format:%h) ./frontend
+        run : docker build -t nnine-fe:$(git log -1 --pretty=format:%h) ./
       
       - name: upload docker images
         run: |
